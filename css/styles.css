@@ -506,6 +506,7 @@ img {
 
 .footer-subscribe-icon {
   fill: #ffffff;
+  --color3: #ffffff;
 }
 
 .backdrop {
@@ -573,12 +574,14 @@ img {
 
 .modal-close-icon {
   fill: #2e2f42;
+  --color1: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-close-button:hover .modal-close-icon,
 .modal-close-button:focus .modal-close-icon {
   fill: #ffffff;
+  --color1: #ffffff;
 }
 
 .modal-title {
@@ -633,12 +636,16 @@ img {
   top: 50%;
   transform: translateY(-50%);
   fill: #2e2f42;
+  --color0: #2e2f42;
+  --color1: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
 }
 
 .modal-input:focus + .modal-input-icon {
   fill: #4d5ae5;
+  --color0: #4d5ae5;
+  --color1: #4d5ae5;
 }
 
 .modal-textarea {
